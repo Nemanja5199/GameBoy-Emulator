@@ -19,11 +19,7 @@ class Memory
 
     public:
 
-        Memory() {
-
-            // Initialize memory with zeros
-            memory.fill(0);
-        }
+        Memory(); 
 
         static const uint16_t ROM_BANK0_START = 0x0000;
         static const uint16_t ROM_BANK0_END = 0x3FFF;
