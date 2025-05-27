@@ -63,3 +63,11 @@ uint16_t Memory::readWord(uint16_t address) const {
 }
 
 
+ void writeWord(uint16_t address, uint16_t value){
+
+
+
+
+
+
+ }
